@@ -5,8 +5,6 @@
 
 pragma solidity >=0.7.0 <0.9.0;
 
-import "https://raw.githubusercontent.com/OpenZeppelin/openzeppelin-contracts/1f18fea1de4c69355c773090c40fe083c08947b4/contracts/token/ERC20/IERC20.sol";
-
 
 // This contract can be very dangerous.
 contract RedirectableAddress {
