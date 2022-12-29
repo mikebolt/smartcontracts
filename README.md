@@ -39,3 +39,12 @@ its first transaction.
 
 This contract is designed to hold ether and only give it to anyone who knows
 a secret.
+
+## CrackableDeposit
+
+Same as LockedDeposit, but leaving open the possibility that it could be cracked
+by someone who didn't know the original secret. This is done by using some mask
+bits (in this example there are 32 mask bits). There is also a hardcoded salt
+value that is added, because someone could precompute a large number of hashes
+and crack the value in O(1) time. In theory, if there are enough mask bits,
+then cracking this could be harder than successfully mining a bitcoin node.
