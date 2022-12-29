@@ -23,3 +23,14 @@ TODO this contract could also support individual ERC20 tokens, but they would ha
 at the time of contract creation so that the tokens paid out by setRecipient are always the same as
 the tokens paid out by withdrawTokens. Otherwise tokens would not be sent to the correct recipient
 without some expensive record keeping.
+
+## SemiPrivate
+
+This contract encodes an address so that the address is not in the contract's
+memory, but instead the contract stores a hashed version of the address. Then
+it can be checked later by performing the same hash. If someone checks every
+known ethereum address then they could figure out which one it is. It would
+only take a few seconds to compute. However, I think if it's an unknown address
+that hasn't made any transactions yet, then it would be private because it uses
+a secure hash function. But it would only be private until that account makes
+its first transaction.
