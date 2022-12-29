@@ -34,3 +34,8 @@ only take a few seconds to compute. However, I think if it's an unknown address
 that hasn't made any transactions yet, then it would be private because it uses
 a secure hash function. But it would only be private until that account makes
 its first transaction.
+
+## LockedDeposit
+
+This contract is designed to hold ether and only give it to anyone who knows
+a secret.
