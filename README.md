@@ -8,7 +8,7 @@ NO WARRANTY
 
 ## BasicSplitter
 
-[See here: https://github.com/mikebolt/BasicSplitter](https://github.com/mikebolt/BasicSplitter)
+See here: [https://github.com/mikebolt/BasicSplitter](https://github.com/mikebolt/BasicSplitter)
 
 ## RedirectableAddress
 
