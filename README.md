@@ -6,6 +6,10 @@ UNTESTED
 
 NO WARRANTY
 
+## BasicSplitter
+
+[See here: https://github.com/mikebolt/BasicSplitter](https://github.com/mikebolt/BasicSplitter)
+
 ## RedirectableAddress
 
 A user can send ether to this contract so that it will be redirected to an address chosen by the owner.
